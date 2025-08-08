@@ -11,10 +11,10 @@ body{
     overflow: hidden;
 }
 .clock-container{
-    background-color: navy;
+    background-color: turquiose;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    border: 1px solid turquoise;
+    border: 1px solid maroon;
     padding: 40px;
     box-shadow: 0 15px 35px ragba(0,0,0, 0.2);
     text-align: center;
@@ -26,7 +26,7 @@ body{
     gap: 20px;
 }
 .time-segment{
-    background-color: rgba(0,0,0, 0.5);
+    background-color: teal;
     border-radius: 10px;
     padding: 15px;
     min-width: 100px;
@@ -56,4 +56,5 @@ body{
     .clock-container{
         padding: 20px;
     }
+
 }
